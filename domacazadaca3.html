@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title> Prijava - nagradna igra </title>
+</head>
+<body style="background-color:#55C3D9">
+<font color="white">
+<h1 align="center"> Nagradna igra </h2>
+<h2 align="center"> Prijavite se i osvojite 10.000 kn na potrošačkoj kartici </h2>
+<center>
+<img src="https://www.pngall.com/wp-content/uploads/2/Credit-Card.png" width="350" alt="Kreditna kartica"> 
+</center>
+<br>
+<div style="text-align: center;">
+<form action="#" method="get">
+<fieldset>
+  <legend>Osobni podaci</legend>
+  <label for="ime"> Ime:* </label><br>
+  <input type="text" id="ime" name="ime" required>
+  <br>
+  <br>
+  <label for="prezime"> Prezime:* </label><br>
+  <input type="text" id="prezime" name="prezime" required>
+  <br>
+  <br>
+  <label for="adresa"> Adresa:* </label><br>
+  <input type="text" id="adresa" name="adresa" required>
+  <br>
+  <br>
+  <label for="kontakt"> Broj mobitela:* </label><br>
+  <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="xxx-xxx-xxxx" required>
+  <br>
+  <br>
+  <label for="email">Email:* </label><br>
+  <input type="email" id="email" name="email" required>
+  </fieldset>
+  <br>
+  <br>
+  <fieldset>
+  <legend>Podaci o računu</legend>
+  <label for="racun"> Broj računa:* </label><br>
+  <input type="tel" id="racun" name="racun" pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}" placeholder="xxxx/xxx/xxx" required>
+  <br>
+  <br>
+  <label for="datum"> Datum kupnje:* </label><br>
+  <input type="date" id="datum" name="datum" required>
+  <br>
+  <br>
+  <br>
+  <label for="datoteka"> Ovdje priložite sliku računa:* </label>
+ <input type="file" id="datoteka" name="datoteka" required>
+ </fieldset>
+  <br>
+  <br>
+  <br>
+  <label for="opis">Opišite kako za vas izgleda savršena kupovina:</label><br>
+<textarea id="opis" name="opis" rows="5" cols="40">
+</textarea>
+<br>
+<br>
+<label for="ocijena"> Ocijenite nas u rasponu od 1-10:</label>
+<br>
+<br>
+<input type="range" id="ocijena" name="ocijena" min="0" max="10" value="5" oninput="this.nextElementSibling.value = this.value">
+<output>5</output>
+<br>
+<br>
+<br>
+<input type="submit" value="Prijavite se">
+</form>
+</font>
+</div>
+</body>
+</html>
