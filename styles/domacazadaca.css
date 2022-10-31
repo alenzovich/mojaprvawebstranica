@@ -9,7 +9,7 @@
   }
   
   header{
-    height: 40vh;
+    height: 50vh;
     background-color: #A1B95C;
 	text-align: center;
 	color: white;
@@ -21,7 +21,7 @@
   }
   
   footer{
-    height: 20vh;
+    height: 10vh;
     background-color: #A1B95C;
 	text-align: center;
 	color: white;
