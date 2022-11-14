@@ -1,0 +1,57 @@
+#text-1 {
+	background-color: #00bfff; 
+	width: 100px;
+  height: 100px;
+	animation-name: animation-1;
+  animation-duration: 5s;
+}
+
+@keyframes animation-1 {
+  from {background-color: #00bfff;;}
+  to {background-color: green;}
+}
+
+#text-2 {
+	background-color: #00bfff; 
+	width: 100px;
+  height: 100px;
+	position: relative;
+	animation-name: animation-2;
+  animation-duration: 5s;
+}
+
+@keyframes animation-2 {
+  0%   {background-color:#00bfff; left:0px; top:0px;}
+  50%  {background-color:#0000ff; left:0px; top:450px;}
+  100% {background-color:#00bfff; left:0px; top:0px;}
+}
+
+#text-3 {
+	background-color: #00bfff; 
+	width: 100px;
+  height: 100px;
+	animation-name: animation-3;
+  animation-duration: 5s;
+	animation-iteration-count: 4;
+}
+
+@keyframes animation-3 {
+  from {background-color: #00bfff;;}
+  to {background-color: orange;}
+}
+
+#text-4 {
+	background-color: #00bfff; 
+	width: 100px;
+  height: 100px;
+	animation-name: animation-4;
+  animation-duration: 5s;
+	position: relative;
+	animation-iteration-count: 2;
+}
+
+@keyframes animation-4 {
+  0%   {background-color:#00bfff; left:0px; top:0px;}
+  50%  {background-color:red; left:450px; top:0px;}
+  100% {background-color:#00bfff; left:0px; top:0px;}
+}

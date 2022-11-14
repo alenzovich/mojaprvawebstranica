@@ -1,0 +1,47 @@
+div {
+	width: 100px;
+    height: 100px;
+}
+
+#text-1 {
+	transition-timing-function: ease;
+	background-color: pink; 
+	}
+
+#text-1:hover {
+	width: 200px;
+	background-color: yellow;
+	transform: skewY(-15deg);
+	}
+	
+#text-2 {
+	transition-timing-function: linear;
+	background-color: purple; 
+	}
+
+#text-2:hover {
+	width: 150px;
+	transform: rotate(-45deg);
+	}
+	
+#text-3 {
+	transition-timing-function: ease-in;
+	background-color: lightgreen; 
+	}
+
+#text-3:hover {
+	width: 250px;
+	height: 250px;
+	transform: skewX(30deg);
+	}
+	
+#text-4 {
+	transition-timing-function: ease-out;
+	background-color: blue; 
+}
+
+#text-4:hover {
+	height: 150px;
+	transform: skewY(-15deg);
+	}
+	
